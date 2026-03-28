@@ -7,9 +7,9 @@
 ---
 
 ### 💻 About Me
-I am a **First Year Information Technology Student** currently based in **Japan** 🇯🇵. I spend my time exploring the depths of the Linux ecosystem, optimizing my workflow, and building a clean, functional digital environment.
+I am a **First Year Information Technology Student**. I spend my time exploring the depths of the Linux ecosystem, optimizing my workflow, and building clean, functional digital environments across multiple platforms.
 
-* 🌱 Currently learning: **Advanced System Administration & AI Integration**
+* 🌱 Currently learning: **Advanced System Administration & Shell Scripting**
 * 🔭 Working on: **Perfecting my Wayland & X11 setups**
 * 🎨 Aesthetic: **Minimalist, rounded corners, and Catppuccin themes**
 
@@ -17,10 +17,16 @@ I am a **First Year Information Technology Student** currently based in **Japan*
 
 ### 🛠 Tech Stack & Environment
 
-#### 🐧 Operating Systems
+#### 💻 Operating Systems
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![Arch Linux](https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white)
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Windows 11](https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows-11&logoColor=white)
+
+#### 🐚 Terminal & Shells
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Shell Script](https://img.shields.io/badge/Shell_Script-263238?style=for-the-badge&logo=gnu-bash&logoColor=white)
+![Neovim](https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white)
 
 #### 🪟 Desktop & Window Managers
 | Type | Environments |
@@ -28,11 +34,7 @@ I am a **First Year Information Technology Student** currently based in **Japan*
 | **Floating** | GNOME, XFCE |
 | **Tiling (X11)** | i3wm |
 | **Tiling (Wayland)** | Hyprland |
-
-#### ⚙️ Favorite Tools
-![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![Terminal](https://img.shields.io/badge/Alacritty/Foot-4D4D4D?style=flat-square&logo=alacritty&logoColor=white)
+| **Windows Shell** | PowerToys / Komorebi |
 
 ---
 
