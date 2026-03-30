@@ -11,7 +11,7 @@ I am a **First Year Information Technology Student**. I spend my time exploring 
 
 * 🌱 Currently learning: **Advanced System Administration & Shell Scripting**
 * 🔭 Working on: **Perfecting my Wayland & X11 setups**
-* 🎨 Aesthetic: **Minimalist, rounded corners, and Catppuccin themes**
+* 🎨 Aesthetic: **Minimalist, Animation, rounded corners, and Catppuccin themes**
 
 ---
 
@@ -47,7 +47,7 @@ I am a **First Year Information Technology Student**. I spend my time exploring 
 ---
 
 ### 📫 Connect with me
-[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/krishnaharry)
+[<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />](https://github.com/KrishnaHarry208/KrishnaHarry208)
 
 ---
 <p align="center">
