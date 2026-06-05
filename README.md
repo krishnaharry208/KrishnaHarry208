@@ -1,23 +1,42 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="150" /></div>
 
-# 🚀 Linux | DevOps | AI/ML Enthusiast
+# About Me
 
-Passionate about Linux systems, DevOps automation, cloud infrastructure, and AI/ML.  
-I focus on building simple, scalable, and automated systems while improving my problem-solving skills every day.
+Passionate about **Linux systems, DevOps automation, cloud infrastructure, AI/ML, and open-source technologies**.  
+I focus on building scalable, reliable, and fully automated systems with a strong foundation in system engineering and problem-solving.
 
-🎓 BSc CSIT Student | IT Engineering Student in :contentReference[oaicite:0]{index=0}  
+## 🎓 Education
+**BSc CSIT Student**  
+IT Engineering Student in :contentReference[oaicite:0]{index=0}   
 
-⚙️ Linux • DevOps • CI/CD • Cloud • AI/ML  
-🧠 Love solving problems through coding  
-🛠️ Dotfiles: i3 • bspwm • Sway • Hyprland  
-🎯 Goal: DevOps / Cloud Engineer with AI/ML expertise  
+## 🧠 What I Do
+- Build and automate Linux-based environments  
+- Design reproducible infrastructure using DevOps tools  
+- Explore AI/ML concepts and apply them in practical projects  
+- Solve coding problems with clean and efficient logic  
+- Continuously improve skills through hands-on learning every day  
 
+## 🌱 Mindset
+- Learn continuously 📈  
+- Build consistently 🛠️  
+- Automate everything possible ⚙️  
+- Focus on simplicity and reliability  
+
+## 🎯 Career Goal
+To become a **Linux Systems Administrator → DevOps Engineer → Cloud Engineer**,  
+while developing strong expertise in **AI/ML and intelligent systems integration**.
+
+## 💬 Quote
 > "Automate everything that can be automated."
----
+## 🔧 Currently Improving
+- Linux Administration (advanced level)
+- Cloud & DevOps workflows
+- Python for automation & scripting
+- AI/ML fundamentals
+- Problem-solving & coding consistency
 
 ## 🧰 Tech Stack
-
 ### 🖥️ Operating Systems
 <div align="left">
   <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
@@ -34,8 +53,5 @@ I focus on building simple, scalable, and automated systems while improving my p
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </div>
-
----
-
 
 </div>
