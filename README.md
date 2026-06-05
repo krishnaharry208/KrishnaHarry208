@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/Krishnaharry208/mylogo.png" alt="My Logo" height="150" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="150" />
 
   # 🚀 Welcome to my Infrastructure & Systems Lab
 
@@ -13,17 +13,17 @@
 </div>
 
 ## 📌 About Me
-I am an IT student dedicated to mastering Linux internals, infrastructure automation, and systems architecture. I treat my desktop as a staging ground for performance optimization and configuration reproducibility.
+I am an IT student focused on Linux systems, infrastructure automation, and DevOps engineering.
 
-* ⚙️ **Core Focus:** Infrastructure as Code (IaC), POSIX shell compliance, and lightweight systems configuration.
-* ⚡ **Philosophy:** Eliminate software bloat, maximize resource efficiency, and automate repetitive workflows.
-* 🛠️ **Current Objective:** Transitioning into Linux Systems Administration and Junior DevOps roles.
+* ⚙️ **Core Focus:** Linux administration, Infrastructure as Code (IaC), and system automation
+* ⚡ **Philosophy:** Minimal, fast, reproducible environments
+* 🛠️ **Goal:** Become a Linux Systems Administrator / DevOps Engineer
 
 ---
 
-## 🧰 Tech Stack & Tooling
+## 🧰 Tech Stack
 
-### 🖥️ Ecosystems & Core OS
+### 🖥️ Operating Systems
 <div align="left">
   <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" />
   <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" />
@@ -31,7 +31,7 @@ I am an IT student dedicated to mastering Linux internals, infrastructure automa
   <img src="https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows-11&logoColor=white" />
 </div>
 
-### 🐚 Environments & Core Tooling
+### 🐚 Tools & Technologies
 <div align="left">
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" />
   <img src="https://img.shields.io/badge/Zsh-F25114?style=for-the-badge&logo=zsh&logoColor=white" />
@@ -40,54 +40,41 @@ I am an IT student dedicated to mastering Linux internals, infrastructure automa
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </div>
 
-### 🪟 Window Management & Environments
-
-| Category | Technologies |
-| :--- | :--- |
-| **Tiling Window Managers** | i3wm (X11), bspwm, Hyprland (Wayland) |
-| **Floating / Desktop** | GNOME, XFCE |
-| **Windows Tiling Extensions** | PowerToys, Komorebi |
-
 ---
 
-## 📂 Featured Engineering Projects
+## 📂 Projects
 
-### 🎨 Dotfiles & Infrastructure Configuration
+### 🎨 Dotfiles Setup
 https://github.com/KrishnaHarry208/dotfiles
 
-> Automated deployment pipeline for a minimalist, production-ready desktop workstation.
-
-- Reproducible configurations using Catppuccin / Tokyo Night themes
-- Portable Linux workstation setup
-- Tech Stack: Linux, Hyprland, i3wm, bspwm, Lua, Zsh, Git
+- Reproducible Linux desktop environment
+- Hyprland / i3wm / bspwm configurations
+- Automated setup scripts
 
 ---
 
 ### 🔧 System Automation Scripts
 https://github.com/KrishnaHarry208/system-scripts
 
-> Collection of production-grade Linux administration utilities.
-
-- POSIX-compliant shell scripting
-- Automated backups and system provisioning
-- Cross-distribution support (Debian / Arch / Ubuntu)
+- Linux administration automation tools
+- POSIX-compliant shell scripts
+- Backup & system monitoring utilities
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KrishnaHarry208&show_icons=true&theme=tokyonight&count_private=true" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KrishnaHarry208&show_icons=true&theme=tokyonight" />
   <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishnaHarry208&layout=compact&theme=tokyonight" />
 </div>
 
 ---
 
-## 🤝 Let's Connect & Collaborate
+## 🤝 Connect With Me
 
 <div align="center">
-  <h3>✨ Thank you for visiting my GitHub profile! ✨</h3>
-  <p>Linux, automation, and open-source infrastructure are my core interests.</p>
+  <h3>Thanks for visiting my profile 🚀</h3>
 
   <a href="https://github.com/KrishnaHarry208">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
