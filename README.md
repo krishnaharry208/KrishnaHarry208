@@ -5,9 +5,9 @@
 
   **Computer Science & IT Student | Aspiring Linux Systems Administrator & DevOps Engineer**
 
-  [![GitHub Stars](https://img.shields.io/github/stars/KrishnaHarry208?style=flat-square&color=A6E3A1)](https://github.com/KrishnaHarry208)
+  <!-- [![GitHub Stars](https://img.shields.io/github/stars/KrishnaHarry208?style=flat-square&color=A6E3A1)](https://github.com/KrishnaHarry208)
   [![GitHub Forks](https://img.shields.io/github/forks/KrishnaHarry208?style=flat-square&color=89B4FA)](https://github.com/KrishnaHarry208)
-  [![License](https://img.shields.io/badge/License-MIT-F38BA8?style=flat-square)](https://opensource.org/licenses/MIT)
+  [![License](https://img.shields.io/badge/License-MIT-F38BA8?style=flat-square)](https://opensource.org/licenses/MIT) -->
 
   ---
 </div>
