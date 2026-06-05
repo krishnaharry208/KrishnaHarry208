@@ -1,24 +1,19 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="150" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="150" /></div>
 
-  # 🚀 Welcome to my Infrastructure & Systems Lab
+# 🚀 Linux | DevOps | AI/ML Enthusiast
 
-  **Computer Science & IT Student | Aspiring Linux Systems Administrator & DevOps Engineer**
+Passionate about Linux systems, DevOps automation, cloud infrastructure, and AI/ML.  
+I focus on building simple, scalable, and automated systems while improving my problem-solving skills every day.
 
-  <!-- [![GitHub Stars](https://img.shields.io/github/stars/KrishnaHarry208?style=flat-square&color=A6E3A1)](https://github.com/KrishnaHarry208)
-  [![GitHub Forks](https://img.shields.io/github/forks/KrishnaHarry208?style=flat-square&color=89B4FA)](https://github.com/KrishnaHarry208)
-  [![License](https://img.shields.io/badge/License-MIT-F38BA8?style=flat-square)](https://opensource.org/licenses/MIT) -->
+🎓 BSc CSIT Student | IT Engineering Student in :contentReference[oaicite:0]{index=0}  
 
-  ---
-</div>
+⚙️ Linux • DevOps • CI/CD • Cloud • AI/ML  
+🧠 Love solving problems through coding  
+🛠️ Dotfiles: i3 • bspwm • Sway • Hyprland  
+🎯 Goal: DevOps / Cloud Engineer with AI/ML expertise  
 
-## 📌 About Me
-I am an IT student focused on Linux systems, infrastructure automation, and DevOps engineering.
-
-* ⚙️ **Core Focus:** Linux administration, Infrastructure as Code (IaC), and system automation
-* ⚡ **Philosophy:** Minimal, fast, reproducible environments
-* 🛠️ **Goal:** Become a Linux Systems Administrator / DevOps Engineer
-
+> "Automate everything that can be automated."
 ---
 
 ## 🧰 Tech Stack
@@ -42,41 +37,5 @@ I am an IT student focused on Linux systems, infrastructure automation, and DevO
 
 ---
 
-## 📂 Projects
 
-### 🎨 Dotfiles Setup
-https://github.com/KrishnaHarry208/dotfiles
-
-- Reproducible Linux desktop environment
-- Hyprland / i3wm / bspwm configurations
-- Automated setup scripts
-
----
-
-### 🔧 System Automation Scripts
-https://github.com/KrishnaHarry208/system-scripts
-
-- Linux administration automation tools
-- POSIX-compliant shell scripts
-- Backup & system monitoring utilities
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KrishnaHarry208&show_icons=true&theme=tokyonight" />
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishnaHarry208&layout=compact&theme=tokyonight" />
-</div>
-
----
-
-## 🤝 Connect With Me
-
-<div align="center">
-  <h3>Thanks for visiting my profile 🚀</h3>
-
-  <a href="https://github.com/KrishnaHarry208">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
 </div>
