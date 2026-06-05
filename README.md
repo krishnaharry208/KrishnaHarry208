@@ -1,115 +1,89 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=B4A7DB&center=true&vCenter=true&width=500&lines=Hey%2C+I'm+Harry+%F0%9F%91%8B;Linux+Enthusiast;Dotfiles+Architect;IT+Student" alt="Typing SVG" />
+  <img src="mylogo.png" alt="My Logo" height="150" />
+
+  # 🚀 Welcome to my Infrastructure & Systems Lab
+
+  **Computer Science & IT Student | Aspiring Linux Systems Administrator & DevOps Engineer**
+
+  [![GitHub Stars](https://img.shields.io/github/stars/KrishnaHarry208?style=flat-square&color=A6E3A1)](https://github.com/KrishnaHarry208)
+  [![GitHub Forks](https://img.shields.io/github/forks/KrishnaHarry208?style=flat-square&color=89B4FA)](https://github.com/KrishnaHarry208)
+  [![License](https://img.shields.io/badge/License-MIT-F38BA8?style=flat-square)](https://opensource.org/licenses/MIT)
+
+  ---
 </div>
 
-<p align="center">
-  <a href="https://github.com/KrishnaHarry208">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:krishnaharry208@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+## 📌 About Me
+I am an IT student dedicated to mastering Linux internals, infrastructure automation, and systems architecture. I treat my desktop as a staging ground for performance optimization and configuration reproducibility.
+
+* ⚙️ **Core Focus:** Infrastructure as Code (IaC), POSIX shell compliance, and lightweight systems configuration.
+* ⚡ **Philosophy:** Eliminate software bloat, maximize resource efficiency, and automate repetitive workflows.
+* 🛠️ **Current Objective:** Transitioning into Linux Systems Administration and Junior DevOps roles.
 
 ---
 
-## 🎯 About Me
+## 🧰 Tech Stack & Tooling
 
-I'm a **First Year IT Student** passionate about building minimal, functional, and beautiful Linux environments. I obsess over dotfiles, shell scripting, and optimizing every pixel of my workflow. Currently diving deep into **Advanced System Administration** and **Wayland/X11 configurations**.
-
-- 🌱 **Learning:** Advanced System Administration & Shell Scripting
-- 🔭 **Building:** Perfect Wayland & X11 setups with Hyprland
-- 🎨 **Aesthetic:** Minimalist, Catppuccin themes, rounded corners & animations
-- ⚡ **Philosophy:** Less bloat, more control
-
----
-
-## 💻 Tech Stack
-
-### 🖥️ Operating Systems
-<div>
+### 🖥️ Ecosystems & Core OS
+<div align="left">
   <img src="https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white" alt="Debian" />
   <img src="https://img.shields.io/badge/Arch%20Linux-1793D1?style=for-the-badge&logo=arch-linux&logoColor=white" alt="Arch Linux" />
   <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Ubuntu" />
   <img src="https://img.shields.io/badge/Windows%2011-0078D4?style=for-the-badge&logo=windows-11&logoColor=white" alt="Windows 11" />
 </div>
 
-### 🐚 Shell & Terminal
-<div>
+### 🐚 Environments & Core Tooling
+<div align="left">
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Zsh-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Zsh" />
-  <img src="https://img.shields.io/badge/Fish-3D3D3D?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Fish" />
+  <img src="https://img.shields.io/badge/Zsh-F25114?style=for-the-badge&logo=zsh&logoColor=white" alt="Zsh" />
   <img src="https://img.shields.io/badge/Neovim-57A143?style=for-the-badge&logo=neovim&logoColor=white" alt="Neovim" />
-</div>
-
-### 🪟 Desktop Environments & Window Managers
-
-| **Category** | **Environments** |
-|:---|:---|
-| **Floating WM** | GNOME, XFCE |
-| **Tiling (X11)** | i3wm |
-| **Tiling (Wayland)** | Hyprland |
-| **Windows** | PowerToys, Komorebi |
-
-### 🛠️ Tools & Utilities
-<div>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</div>
+
+### 🪟 Window Management & Environments
+
+| Category | Technologies |
+| :--- | :--- |
+| **Tiling Window Managers** | `i3wm` (X11), `bspwm`, `Hyprland` (Wayland) |
+| **Floating / Desktop** | GNOME, XFCE |
+| **Windows Tiling Extensions** | PowerToys, Komorebi |
+
+---
+
+## 📂 Featured Engineering Projects
+
+### 🎨 [Dotfiles & Infrastructure Configuration](https://github.com/KrishnaHarry208/dotfiles)
+> **Automated deployment pipeline for a minimalist, production-ready desktop workstation.**
+* **Reproducible Deployments:** Architected modular configurations using the **Catppuccin** and **Tokyo Night** design syntax across window managers, custom status bars, and development contexts.
+* **Optimized Workstation:** Integrated strict environment configurations ensuring rapid setup recovery on bare-metal systems.
+* **Tech Stack:** Linux, Hyprland/i3wm/bspwm, Lua (Neovim), Zsh, Git
+
+### 🔧 [System Automation Scripts](https://github.com/KrishnaHarry208/system-scripts)
+> **A collection of production-grade shell utilities targeting core Linux administration tasks.**
+* **Idempotency:** Developed robust execution scripts for system provisioning, automated backups, and log monitoring.
+* **Compatibility:** Written strictly with POSIX compliance in mind to guarantee cross-distribution viability (Debian/Arch/Ubuntu).
+* **Tech Stack:** Bash, POSIX Shell, Coreutils, Linux SysFS
+
+---
+
+## 📊 GitHub Analytics
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=KrishnaHarry208&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub Metrics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishnaHarry208&layout=compact&theme=tokyonight" alt="Language Distribution" />
 </div>
 
 ---
-
-## 📂 Featured Projects
-
-### 🎨 [Dotfiles](https://github.com/KrishnaHarry208/dotfiles)
-My personal configuration files for Hyprland, Neovim, and shell environments. Fully themed with Catppuccin, optimized for minimal resource usage.
-
-**Tech:** Hyprland, Waybar, Neovim, Zsh, Git
-
-### 🔧 [System Scripts](https://github.com/KrishnaHarry208/system-scripts)
-Collection of bash/shell scripts for system administration, automation, and productivity.
-
-**Tech:** Bash, Shell Script
-
 ---
 
-## 📊 GitHub Stats
+## 🤝 Let's Connect & Collaborate
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=KrishnaHarry208&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=KrishnaHarry208&layout=compact&theme=tokyonight" alt="Top Languages" />
+  <h3>✨ Thank you for visiting my GitHub profile! ✨</h3>
+  <p>Whether you want to discuss Linux internals, share automation workflows, or talk about open-source infrastructure projects, my inbox is always open.</p>
+
+  <a href="https://github.com/KrishnaHarry208">
+    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </div>
-
----
-
-## 🎓 Currently Learning
-
-- ✅ Advanced Linux System Administration
-- ✅ Bash & Shell Scripting Mastery
-- ✅ Wayland Protocol & Compositor Development
-- ✅ Dotfiles Best Practices
-- ⏳ Kernel Module Development
-
----
-
-## 🎯 Goals
-
-- [ ] Contribute to major Linux projects
-- [ ] Master Wayland ecosystem
-- [ ] Build a custom tiling window manager
-- [ ] Create comprehensive dotfiles documentation
-- [ ] Publish shell scripting tutorials
-
----
-
-## 🤝 Let's Connect
-
-I'm always open to discussing Linux, dotfiles optimization, and system administration. Feel free to reach out!
-
-<div align="center">
-  <i>"Control-Alt-Elite"</i>
-  
-  ⭐ If you find my work useful, consider starring my repos!
 </div>
