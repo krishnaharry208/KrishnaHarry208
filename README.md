@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/GithuProfile/main/mylogo.png" alt="My Logo" height="150" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/Krishnaharry208/mylogo.png" alt="My Logo" height="150" />
 
   # 🚀 Welcome to my Infrastructure & Systems Lab
 
