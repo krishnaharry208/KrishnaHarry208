@@ -3,5 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/github-metrics.svg" alt="GitHub Metrics" width="100%" />
+  <img src="./asdf.png" alt="GitHub Metrics" style="max-width: 400px; width: 100%;" />
 </p>
+
+
