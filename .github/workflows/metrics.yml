@@ -23,3 +23,7 @@ jobs:
           base_indepth: false
           base_hireable: false
           config_timezone: Asia/Tokyo
+          
+          # This enables the 3D full-year activity grid
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
