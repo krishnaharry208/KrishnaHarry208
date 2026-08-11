@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lowermetrics Responsive Stats</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #08111b;
+      --panel: #0f1721;
+      --panel-soft: #111b29;
+      --text: #e2e9f2;
+      --muted: #8fa4b7;
+      --accent: #2e8cf0;
+      --accent-soft: #1a3a5d;
+      --success: #2f9d66;
+      --success-soft: rgba(47, 157, 102, 0.14);
+      --stroke: rgba(255, 255, 255, 0.08);
+      --green-1: #0f5037;
+      --green-2: #156751;
+      --green-3: #1d825d;
+      --green-4: #33a06f;
+      --green-5: #2dd383;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: radial-gradient(circle at top left, rgba(56, 189, 248, 0.12), transparent 24%),
+                  radial-gradient(circle at bottom right, rgba(16, 185, 129, 0.08), transparent 28%),
+                  var(--bg);
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 1260px;
+      margin: 0 auto;
+      padding: 32px 24px;
+    }
+
+    .header {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 24px;
+    }
+
+    .card {
+      background: var(--panel);
+      border: 1px solid var(--stroke);
+      border-radius: 24px;
+      padding: 28px;
+      box-shadow: 0 24px 60px rgba(0, 0, 0, 0.22);
+    }
+
+    .profile-card {
+      display: grid;
+      gap: 24px;
+    }
+
+    .title-row {
+      display: flex;
+      justify-content: space-between;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .profile-name {
+      margin: 0;
+      font-size: clamp(1.8rem, 2vw, 2.6rem);
+      letter-spacing: -0.03em;
+    }
+
+    .profile-meta {
+      color: var(--muted);
+      font-size: 0.96rem;
+      line-height: 1.7;
+    }
+
+    .badge {
+      background: rgba(109, 151, 255, 0.12);
+      color: #c3d0ff;
+      border-radius: 999px;
+      padding: 10px 14px;
+      font-size: 0.9rem;
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      align-self: start;
+    }
+
+    .section-label {
+      font-size: 0.95rem;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+
+    .stats-list {
+      display: grid;
+      gap: 14px;
+      padding-top: 12px;
+    }
+
+    .stat-item {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 12px;
+      align-items: center;
+      font-size: 0.98rem;
+      color: var(--text);
+    }
+
+    .stat-item strong {
+      display: inline-block;
+      min-width: 92px;
+      color: var(--text);
+    }
+
+    .stat-item span {
+      color: var(--muted);
+    }
+
+    .grid-group {
+      display: grid;
+      gap: 16px;
+    }
+
+    .group-title {
+      font-size: 1.02rem;
+      font-weight: 700;
+      margin-bottom: 10px;
+    }
+
+    .mini-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .mini-card {
+      background: var(--panel-soft);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 18px;
+      padding: 18px;
+    }
+
+    .mini-card strong {
+      display: block;
+      margin-bottom: 8px;
+      color: var(--text);
+      font-size: 1.05rem;
+    }
+
+    .mini-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.65;
+      font-size: 0.95rem;
+    }
+
+    .panel-right {
+      display: grid;
+      gap: 24px;
+    }
+
+    .panel-right .card {
+      overflow: hidden;
+    }
+
+    .community-grid {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .community-item {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 16px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: 18px;
+    }
+
+    .community-marker {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--accent);
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .community-text {
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+
+    .contribution-panel {
+      display: grid;
+      gap: 18px;
+    }
+
+    .contributions-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+
+    .contributions-header h2 {
+      margin: 0;
+      font-size: clamp(1.2rem, 2vw, 1.5rem);
+    }
+
+    .contribution-graph {
+      position: relative;
+      padding: 22px;
+      background: linear-gradient(180deg, rgba(17, 27, 41, 0.9), rgba(11, 18, 28, 0.98));
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 24px;
+      min-height: 300px;
+      overflow: hidden;
+    }
+
+    .graph-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(14px, 1fr));
+      grid-auto-rows: 14px;
+      gap: 5px;
+      justify-items: center;
+      align-items: end;
+      min-height: 220px;
+      width: 100%;
+      transform: perspective(800px) rotateX(8deg);
+      transform-origin: bottom center;
+    }
+
+    .graph-cell {
+      width: 100%;
+      border-radius: 3px;
+      position: relative;
+      transition: transform 180ms ease, background-color 180ms ease;
+      background: #0c141f;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+    }
+
+    .graph-cell[data-level="1"] { background: var(--green-1); }
+    .graph-cell[data-level="2"] { background: var(--green-2); }
+    .graph-cell[data-level="3"] { background: var(--green-3); }
+    .graph-cell[data-level="4"] { background: var(--green-4); }
+    .graph-cell[data-level="5"] { background: var(--green-5); }
+
+    .graph-cell:hover {
+      transform: translateY(-4px) scale(1.05);
+      box-shadow: 0 10px 22px rgba(0, 0, 0, 0.25);
+    }
+
+    .graph-tooltip {
+      position: absolute;
+      left: 50%;
+      top: 14px;
+      transform: translateX(-50%);
+      background: rgba(15, 23, 35, 0.96);
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.09);
+      color: var(--text);
+      font-size: 0.9rem;
+      z-index: 2;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 120ms ease;
+      white-space: nowrap;
+    }
+
+    .graph-cell:hover .graph-tooltip {
+      opacity: 1;
+    }
+
+    .graph-legend {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend-bullet {
+      width: 12px;
+      height: 12px;
+      border-radius: 3px;
+      background: var(--accent);
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.08);
+    }
+
+    .footer-cards {
+      display: grid;
+      gap: 18px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .footer-card {
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(255, 255, 255, 0.03);
+      padding: 22px;
+      min-height: 128px;
+    }
+
+    .footer-card strong {
+      display: block;
+      font-size: 1.08rem;
+      margin-bottom: 8px;
+    }
+
+    .footer-card p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.7;
+    }
+
+    @media (max-width: 980px) {
+      .header {
+        grid-template-columns: 1fr;
+      }
+
+      .community-grid,
+      .footer-cards,
+      .mini-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (max-width: 680px) {
+      .page {
+        padding: 20px 16px;
+      }
+
+      .card {
+        padding: 22px;
+      }
+
+      .badge {
+        width: fit-content;
+      }
+
+      .graph-grid {
+        transform: perspective(600px) rotateX(6deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <div class="header">
+      <section class="card profile-card">
+        <div class="title-row">
+          <div class="profile-info">
+            <h1 class="profile-name">KrishnaHarry</h1>
+            <p class="profile-meta">Joined GitHub 5 months ago · Followed by 2 users</p>
+          </div>
+          <div class="badge">GitHub Profile</div>
+        </div>
+
+        <div>
+          <p class="section-label">Activity</p>
+          <div class="stats-list">
+            <div class="stat-item"><strong>101 Commits</strong><span>0 Pull requests reviewed</span></div>
+            <div class="stat-item"><strong>0 Pull requests opened</strong><span>0 Issues opened</span></div>
+            <div class="stat-item"><strong>0 issue comments</strong><span>&nbsp;</span></div>
+          </div>
+        </div>
+
+        <div>
+          <p class="section-label">12 Repositories</p>
+          <div class="stats-list">
+            <div class="stat-item"><strong>No license preference</strong><span>0 Releases</span></div>
+            <div class="stat-item"><strong>0 Packages</strong><span>96.1 MB used</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel-right">
+        <section class="card">
+          <p class="section-label">Community stats</p>
+          <div class="community-grid">
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Contributed to 12 repositories</span></div>
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Member of 0 organizations</span></div>
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Following 3 users</span></div>
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Sponsoring 0 repositories</span></div>
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Starred 0 repositories</span></div>
+            <div class="community-item"><span class="community-marker"></span><span class="community-text">Watching 0 repositories</span></div>
+          </div>
+        </section>
+
+        <section class="card contribution-panel">
+          <div class="contributions-header">
+            <h2>Contributions calendar</h2>
+            <span class="section-label">Monthly overview</span>
+          </div>
+          <div class="contribution-graph">
+            <div class="graph-grid" id="graphGrid"></div>
+          </div>
+          <div class="graph-legend">
+            <div class="legend-item"><span class="legend-bullet"></span>Fewer contributions</div>
+            <div class="legend-item"><span class="legend-bullet"></span>Higher contributions</div>
+          </div>
+        </section>
+
+        <div class="footer-cards">
+          <div class="footer-card">
+            <strong>Commits streaks</strong>
+            <p>Best streak 5 days</p>
+          </div>
+          <div class="footer-card">
+            <strong>Commits per day</strong>
+            <p>Highest in a day at 12 · Average per day at ~0.31</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <script>
+    const contributionData = [
+      0, 0, 1, 2, 0, 1, 5,
+      0, 3, 4, 2, 2, 0, 0,
+      1, 0, 0, 1, 3, 4, 2,
+      0, 1, 6, 12, 4, 0, 2,
+      0, 0, 1, 1, 1, 0, 0,
+      2, 0, 0, 0, 3, 0, 1,
+      0, 1, 0, 4, 5, 2, 0,
+      0, 0, 0, 3, 2, 1, 0,
+      1, 0, 2, 1, 0, 0, 0,
+      0, 1, 0, 3, 0, 0, 0,
+      2, 0, 1, 0, 0, 1, 0
+    ];
+
+    const levels = [0, 1, 2, 3, 4, 5];
+
+    function getLevel(value) {
+      if (value >= 10) return 5;
+      if (value >= 6) return 4;
+      if (value >= 3) return 3;
+      if (value >= 2) return 2;
+      if (value >= 1) return 1;
+      return 0;
+    }
+
+    const graphGrid = document.getElementById('graphGrid');
+    contributionData.forEach((count, index) => {
+      const level = getLevel(count);
+      const cell = document.createElement('div');
+      cell.className = 'graph-cell';
+      cell.dataset.level = level;
+      const dayLabel = `Day ${index + 1}: ${count} contribution${count === 1 ? '' : 's'}`;
+      cell.innerHTML = `<div class="graph-tooltip">${dayLabel}</div>`;
+      graphGrid.appendChild(cell);
+    });
+  </script>
+</body>
+</html>
