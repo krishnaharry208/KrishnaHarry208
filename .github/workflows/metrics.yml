@@ -19,7 +19,7 @@ jobs:
           committer_message: "chore: update metrics [skip ci]"
           
           template: classic
-          base: header, activity, community, repositories, 
+          base: header, activity, community, repositories
           base_indepth: false
           base_hireable: false
           config_timezone: Asia/Tokyo
