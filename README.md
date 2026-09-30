@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="150" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/mylogo.png" alt="My Logo" height="190" />
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/github-metrics.svg?v=1ea1e9b" alt="GitHub Metrics" width="320" style="max-width: 100%; height: auto;" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/github-metrics.svg?v=1ea1e9b" alt="GitHub Metrics" width="550" style="max-width: 100%; height: auto;" />
 </p>
 
 
