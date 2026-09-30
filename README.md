@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/github-metrics.svg?v=1ea1e9b" alt="GitHub Metrics" style="max-width: 400px; width: 100%;" />
+  <img src="https://raw.githubusercontent.com/krishnaharry208/KrishnaHarry208/main/github-metrics.svg?v=1ea1e9b" alt="GitHub Metrics" width="320" style="max-width: 100%; height: auto;" />
 </p>
 
 
