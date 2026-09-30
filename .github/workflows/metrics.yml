@@ -24,7 +24,7 @@ jobs:
           base_hireable: false
           config_timezone: Asia/Tokyo
           config_padding: 0, 8
-          config_order: base.header, isocalendar, base.activity, base.community, base.repositories, base.metadata
+          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, isocalendar
           
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
