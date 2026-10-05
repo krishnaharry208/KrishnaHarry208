@@ -25,11 +25,9 @@ jobs:
           base_hireable: false
           config_timezone: Asia/Tokyo
           config_padding: 0, 8
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, isocalendar
+          config_order: base.header, base.activity+community, base.repositories, gists, isocalendar
 
           plugin_gists: yes
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list
 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
@@ -49,10 +47,8 @@ jobs:
           base_hireable: false
           config_timezone: Asia/Tokyo
           config_padding: 0, 8
-          config_order: base.header, base.activity, base.community, base.repositories, base.metadata, gists, sponsors, isocalendar
+          config_order: base.header, base.activity+community, base.repositories, gists, isocalendar
 
           plugin_gists: yes
-          plugin_sponsors: yes
-          plugin_sponsors_sections: goal, list
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
