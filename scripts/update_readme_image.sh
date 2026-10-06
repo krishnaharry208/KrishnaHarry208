@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Update the generated GitHub metrics image URL with a cache-busting commit SHA.
+# Update the generated GitHub metrics image URL with a content-based cache key.
 set -euo pipefail
 REPO_USER="krishnaharry208"
 REPO_NAME="KrishnaHarry208"
@@ -11,7 +11,11 @@ if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
   echo "Not a git repository. Run this script from the repo root."
   exit 1
 fi
-SHA=$(git rev-parse --short HEAD)
+if [[ ! -f "$FILE" ]]; then
+  echo "Metrics image not found: $FILE"
+  exit 1
+fi
+SHA=$(sha256sum "$FILE" | cut -c1-12)
 RAW_URL="https://raw.githubusercontent.com/${REPO_USER}/${REPO_NAME}/${BRANCH}/${FILE}?v=${SHA}"
 TEMP_README=$(mktemp "${README}.XXXXXX")
 trap 'rm -f "$TEMP_README"' EXIT
